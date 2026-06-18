@@ -1,0 +1,22 @@
+name: testing renovate regex manager
+
+on:
+  workflow_dispatch:
+
+env:
+  # renovate: datasource=golang-version depName=go
+  GO_VERSION: 1.26.0
+  # renovate: datasource=node-version depName=node
+  NODE_VERSION: 24
+  # renovate: datasource=npm depName=pnpm
+  PNPM_VERSION: 11.5.2
+  # renovate: datasource=npm depName=renovate
+  RENOVATE_VERSION: 43.202.1
+
+jobs:
+  phony:
+     name: do nothing
+     runs-on: ubuntu-24.04
+     steps:
+      - name: true
+        run: true
