@@ -11,7 +11,7 @@ env:
   # renovate: datasource=npm depName=pnpm
   PNPM_VERSION: 11.5.2
   # renovate: datasource=npm depName=renovate
-  RENOVATE_VERSION: 43.202.1
+  RENOVATE_VERSION: 43.288.0
 
 jobs:
   phony:
