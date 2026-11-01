@@ -7,7 +7,7 @@ env:
   # renovate: datasource=golang-version depName=go
   GO_VERSION: 1.26.0
   # renovate: datasource=node-version depName=node
-  NODE_VERSION: 24
+  NODE_VERSION: 26
   # renovate: datasource=npm depName=pnpm
   PNPM_VERSION: 11.5.2
   # renovate: datasource=npm depName=renovate
